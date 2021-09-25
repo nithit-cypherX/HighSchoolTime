@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SMSCFinal.iml" filepath="$PROJECT_DIR$/SMSCFinal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/SMSCFinal-app.iml" filepath="$PROJECT_DIR$/app/SMSCFinal-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/smsc_andriod-app.iml" filepath="$PROJECT_DIR$/app/smsc_andriod-app.iml" />
+    </modules>
+  </component>
+</project>

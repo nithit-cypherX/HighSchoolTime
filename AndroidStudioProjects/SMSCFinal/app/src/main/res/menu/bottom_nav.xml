@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_action_home"
+        android:title="@string/home" />
+
+    <item
+        android:id="@+id/medication"
+        android:icon="@drawable/ic_action_fav"
+        android:title="@string/medication" />
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_action_profile"
+        android:title="@string/profile" />
+
+    <!--now add some icons in drawable-->
+
+</menu>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgCOlor"
+    tools:context=".HomeFragment"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+
+        <ImageView
+            android:layout_width="31dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="อาการชัก"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            />
+
+        <ImageView
+            android:layout_width="31dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/next" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+
+        <ImageView
+            android:layout_width="367dp"
+            android:layout_height="10dp"
+            android:src="@drawable/hori"
+
+
+            ></ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+
+        <ImageView
+            android:layout_width="31dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="สัปดาห์นี้"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            />
+
+        <ImageView
+            android:layout_width="31dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+
+            android:src="@drawable/next"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="231dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical">
+
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="202dp"
+            android:layout_gravity="top"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/graph">
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/web">
+
+        </ImageView>
+
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+
+
+
