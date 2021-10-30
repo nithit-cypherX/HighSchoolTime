@@ -1,0 +1,22 @@
+<html>    
+    <body onkeyup="onKey(event)">
+        <canvas id="paper" width="400" height="400"></canvas>
+    </body>
+    <script src="game2.js"></script>
+    <script>        
+        let activeScene = new CountDownScene();
+        function onKey(event){
+            activeScene.onKey(event)
+        }
+        activeScene.start();
+        let canvas = document.getElementById("paper");
+        function draw(){
+            let ctx = canvas.getContext('2d')
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            activeScene.draw(ctx)
+        }
+        setInterval(() => {
+            window.requestAnimationFrame(draw)
+        }, 50)
+    </script>    
+</html>

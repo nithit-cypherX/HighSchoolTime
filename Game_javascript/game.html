@@ -1,0 +1,36 @@
+<html>
+
+<body onkeydown="keyDown(event)">
+  <canvas id="paper" width="400" height="400">
+  </canvas>
+</body>
+<script>
+  let game = {size: 50, max_size: 200, 
+    shrink_step: 15, grow_step: 5}
+  function keyDown(event) {
+    if(event.keyCode == 32) shrink()
+  }
+  function shrink(){
+    if(game.size > 0)
+      game.size -= game.shrink_step
+  }
+  function grow(){
+    if(game.size < game.max_size)
+      game.size += game.grow_step
+  }
+  let canvas = document.getElementById("paper")
+  function draw() {    
+    let ctx = canvas.getContext('2d')
+    ctx.clearRect(0, 0, 400, 400)
+    ctx.beginPath();
+    ctx.arc(200, 200, game.size, 0, 2 * Math.PI, false)
+    ctx.fillStyle = 'green'
+    ctx.fill()
+  }  
+  setInterval(() => {
+    grow()
+    window.requestAnimationFrame(draw)
+  }, 50) //ms
+</script>
+
+</html>
